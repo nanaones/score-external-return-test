@@ -48,18 +48,23 @@ transaction hash: 0xcd948ebdb5aa158b399f50963be87e921acdaabdd93a68481a535b038ac4
 
  ### Then, you can see your contract method on ICONex
 
- #### move to contract tab & paste contract address.
+ #### move to contract tab & paste contract address.  
+ 
  ![img](/pic/contract.png)
 
 
 
- #### you can see return values.
- ##### Type bool
- ![img](/pic/bool.png)
- ##### Type dict
- ![img](/pic/dict.png)
- ##### Type int
- ![img](/pic/int.png)
- ##### Type list
+ #### you can see return values.  
+ 
+ ## Type bool
+ ![img](/pic/bool.png) . 
+ 
+ ## Type dict
+ ![img](/pic/dict.png) . 
+ 
+ ## Type int
+ ![img](/pic/int.png) . 
+ 
+ ## Type list
  ![img](/pic/list.png)
     
