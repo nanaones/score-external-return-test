@@ -25,6 +25,8 @@ Send deploy request successfully.
 If you want to check SCORE deployed successfully, execute txresult command
 transaction hash: 0xcd948ebdb5aa158b399f50963be87e921acdaabdd93a68481a535b038ac4b91e
 ``
+  
+  
 **copy transaction hash**
 
 
@@ -39,25 +41,25 @@ transaction hash: 0xcd948ebdb5aa158b399f50963be87e921acdaabdd93a68481a535b038ac4
 
 ---
 
-    ### Set network
-    ![img](/pic/icon.png)
+ ### Set network
+ ![img](/pic/icon.png)
 
 
 
-    ### Then, you can see your contract method on ICONex
+ ### Then, you can see your contract method on ICONex
 
-    #### move to contract tab & paste contract address.
-    ![img](/pic/contract.png)
+ #### move to contract tab & paste contract address.
+ ![img](/pic/contract.png)
 
 
 
-    #### you can see return values.
-    ##### Type bool
-    ![img](/pic/bool.png)
-    ##### Type dict
-    ![img](/pic/dict.png)
-    ##### Type int
-    ![img](/pic/int.png)
-    ##### Type list
-    ![img](/pic/list.png)
+ #### you can see return values.
+ ##### Type bool
+ ![img](/pic/bool.png)
+ ##### Type dict
+ ![img](/pic/dict.png)
+ ##### Type int
+ ![img](/pic/int.png)
+ ##### Type list
+ ![img](/pic/list.png)
     
