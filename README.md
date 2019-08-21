@@ -31,8 +31,10 @@ transaction hash: 0xcd948ebdb5aa158b399f50963be87e921acdaabdd93a68481a535b038ac4
 
 
 ##### 4. check SCORE address
-   `$ tbears txresult [type txhash]`
-   like this
+   `$ tbears txresult [type txhash]` . 
+   
+   like this . 
+   
    `$ tbears txresult 0xcd948ebdb5aa158b399f50963be87e921acdaabdd93a68481a535b038ac4b91e`
 
 ##### 5. check it on ICONex(in chrome browser)
