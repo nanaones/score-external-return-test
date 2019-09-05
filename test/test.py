@@ -43,6 +43,12 @@ class Test(IconScoreBase):
         Logger.debug(f'Hello, world!', TAG)
         return ["Hello", "nanaones!", 19920305, True, bytes(b"Hello, nanaones!"), {"name":"nanaones", "birth":19920305}]
 
+    @external(readonly=True)
+    def tuple_hello(self) -> str:
+        Logger.debug(f'Hello, world!', TAG)
+        return ("Hello, nanaones!", "nanaeons", 1)
+
+
 # Not surported
 
     # fail
