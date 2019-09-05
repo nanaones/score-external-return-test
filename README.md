@@ -12,7 +12,7 @@ ICONex wallet
 ##### 1. start T-Bears docker container
 `$ docker run -it --name tbears -p 9000:9000 iconloop/tbears:mainnet`  
 ##### 2. pull this repo[in docker container]
-`$ git pull https://github.com/nanaones/score-external-return-test`
+`$ git clone https://github.com/nanaones/score-external-return-test`
 ##### 3. deploy with T-Bears
 `$ cd ./score-external-return-test` 
 `$ tbears deploy -k ./keystore_test1 ./test`
