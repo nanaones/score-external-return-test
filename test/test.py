@@ -92,7 +92,7 @@ class Test(IconScoreBase):
 
     # fail
     # @external(readonly=True)
-    # def tuple_hello(self) -> str:
+    # def tuple_hello(self) -> tuple:
     #     """
     #     in deploy failure massage  
     #     ...
