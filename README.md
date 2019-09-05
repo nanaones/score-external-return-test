@@ -14,9 +14,12 @@ ICONex wallet
 ##### 2. pull this repo[in docker container]
 `$ git clone https://github.com/nanaones/score-external-return-test`
 ##### 3. deploy with T-Bears
-`$ cd ./score-external-return-test` 
-`$ tbears deploy -k ./keystore_test1 ./test`
-`Input your keystore password: ` 
+`$ cd ./score-external-return-test` . 
+
+`$ tbears deploy -k ./keystore_test1 ./test` . 
+
+`Input your keystore password: ` . 
+
 Keystore password is `test1_Account`
 then, you can see
 
