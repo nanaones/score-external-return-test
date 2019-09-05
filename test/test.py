@@ -43,11 +43,6 @@ class Test(IconScoreBase):
         Logger.debug(f'Hello, world!', TAG)
         return ["Hello", "nanaones!", 19920305, True, bytes(b"Hello, nanaones!"), {"name":"nanaones", "birth":19920305}]
 
-    @external(readonly=True)
-    def tuple_hello(self) -> str:
-        Logger.debug(f'Hello, world!', TAG)
-        return ("Hello, nanaones!", "nanaeons", 1)
-
 
 # Not surported
 
@@ -95,6 +90,20 @@ class Test(IconScoreBase):
     #     """
     #     Logger.debug(f'Hello, world!', TAG)
 
-
+    # fail
+    # @external(readonly=True)
+    # def tuple_hello(self) -> str:
+    #     """
+    #     in deploy failure massage  
+    #     ...
+    #         "status": "0x0",
+    #         "failure": {
+    #             "code": "0x5",
+    #             "message": "Unsupported type for '<class 'tuple'>' at tuple_hello"
+    #         }
+    #     ...
+    #     """
+    #     Logger.debug(f'Hello, world!', TAG)
+    #     return ("Hello, nanaones!", "nanaeons", 1)
     
 

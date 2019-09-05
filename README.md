@@ -74,5 +74,3 @@ transaction hash: 0xcd948ebdb5aa158b399f50963be87e921acdaabdd93a68481a535b038ac4
  ## Type list
  ![img](/pic/list.png)
 
- ## Type Tuple  
- ![img](/pic/tuple.png)    
