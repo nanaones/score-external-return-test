@@ -14,8 +14,9 @@ ICONex wallet
 ##### 2. pull this repo[in docker container]
 `$ git pull https://github.com/nanaones/score-external-return-test`
 ##### 3. deploy with T-Bears
-`$ tbears deploy -k keystore_test1 test`
-`Input your keystore password: `
+`$ cd ./score-external-return-test` 
+`$ tbears deploy -k ./keystore_test1 ./test`
+`Input your keystore password: ` 
 Keystore password is `test1_Account`
 then, you can see
 
@@ -33,7 +34,7 @@ transaction hash: 0xcd948ebdb5aa158b399f50963be87e921acdaabdd93a68481a535b038ac4
 ##### 4. check SCORE address
    `$ tbears txresult [type txhash]` . 
    
-   like this . 
+   like this  
    
    `$ tbears txresult 0xcd948ebdb5aa158b399f50963be87e921acdaabdd93a68481a535b038ac4b91e`
 
